@@ -1,6 +1,6 @@
 # Byte Calculator on BASYS 3 FPGA
 
-![FPGA]([link_to_fpga_image](https://github.com/SharpPig/BASYS-3-FPGA-Board-16-Bit-Calculator/blob/main/Basys3-Xilinx-1000x755.jpg?raw=true))
+![FPGA]([fpga](https://github.com/SharpPig/BASYS-3-FPGA-Board-16-Bit-Calculator/blob/main/Basys3-Xilinx-1000x755.jpg?raw=true))
 
 ## Table of Contents
 - [Description](#description)
