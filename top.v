@@ -1,6 +1,16 @@
 `timescale 1ns / 1ps
 /*****************************************************
+top.v
 
+Description:
+Top-level Verilog module for integrating the Byte Calculator, button debouncers, and other components on the BASYS 3 FPGA board.
+
+Inputs:
+- clk_100MHz: 100MHz clock input
+- btn: 5-bit button input
+- sw: 16-bit switch input
+Outputs:
+- LED: 9-bit output displayed on LEDs
 *****************************************************/
 
 
