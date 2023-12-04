@@ -22,13 +22,6 @@ module byte_calculator(
     output reg [8:0] result
     );
     
-    wire reset;
-    assign reset = op_select[4];
-    // op_select[4] = btnC = reset
-    // op_select[3] = btnU = ADD
-    // op_select[2] = btnR = SUB
-    // op_select[1] = btnD = MULT
-    // op_select[0] = btnL = DIV
     
     always @(posedge clk or posedge reset) begin
         if(reset)
