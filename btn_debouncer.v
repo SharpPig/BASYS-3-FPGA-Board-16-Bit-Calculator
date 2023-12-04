@@ -1,6 +1,15 @@
 `timescale 1ns / 1ps
 /*****************************************************
+btn_debouncer.v
 
+Description:
+Verilog module for debouncing a button input. It uses flip-flops to stabilize the button input signal and provides a debounced output.
+
+Inputs:
+- clk_in: Clock input
+- btn_in: Raw button input
+Outputs:
+- btn_out: Debounced button output
 *****************************************************/
 
 module btn_debouncer(
