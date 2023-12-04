@@ -1,3 +1,8 @@
+# const_byte_calulator.xdc
+
+# Description:
+# Xilinx Design Constraints (XDC) file for the Byte Calculator project. It defines pin assignments and IOSTANDARD for clock, switches, buttons, and LEDs on the BASYS 3 FPGA board.
+
 # Clock signal
 set_property PACKAGE_PIN W5 [get_ports clk_100MHz]							
 	set_property IOSTANDARD LVCMOS33 [get_ports clk_100MHz]
