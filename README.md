@@ -48,7 +48,7 @@ The project consists of the following files:
 To get started with the project, clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/byte-calculator-fpga.git](https://github.com/SharpPig/BASYS-3-FPGA-Board-16-Bit-Calculator.git)
+git clone https://github.com/your-username/byte-calculator-fpga.git
 ```
 
 ## How to Use
